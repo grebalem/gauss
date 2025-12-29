@@ -1,0 +1,32 @@
+Time of synthesis is: 2025:29:07:48:13
+=================================================
+--------------Synthesis report-------------------
+=================================================
+Synthesis strategy: Vivado Synthesis Defaults
+Synthesis run: synth_0
+Data from get_timing_paths command:
+#
+Worst timing path: {flt_inst/mem_gen[0].data_buf/mem_r_reg/CLKBWRCLK --> flt_inst/v_mult_reg[0]/A[16]}
+Worst slack: 1.427
+#
+Statistics:
+Elapsed time: 00:00:23
+---------------------------------------------------
+--------------Implementation report-------------------
+Implementation strategy: Performance_HighUtilSLRs
+Implementation run: impl_1_synth_0
+Data from get_timing_paths command:
+#
+Worst timing path: {flt_inst/mem_gen[2].data_buf/mem_r_reg/CLKBWRCLK --> flt_inst/v_mult_reg[2]/A[22]}
+Worst slack: 1.076
+#
+Statistics:
+Elapsed time: 00:00:29
+Worst Negative Slack (WNS): 1.075607
+Total Negative Slack (TNS): 0.000000
+Worst Hold Slack (WHS): 0.099389
+Total Hold Slack (THS): 0.000000
+Total Pulse Width Violation (TPWS): 0.000000
+Failed Nets: 0
+Total Power: 0.330450
+---------------------------------------------------
