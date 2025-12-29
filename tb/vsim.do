@@ -1,0 +1,2 @@
+vsim tb_opt
+
